@@ -1,0 +1,511 @@
+.container-fluid{
+    position: relative;
+    padding: 0;
+}
+
+.row{
+    margin: 0;
+}
+
+.col-6, .col-lg-4, .padding-0{
+    padding: 0;
+}
+.padding-0{
+    font-size: 20px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    font-weight: bold;
+    margin-bottom: 5%;
+}
+
+.center_block{
+    position: absolute;
+    width: 100%;
+    height: 81.8%;
+    top: 0;
+    margin: 9.6% 0;
+}
+
+img{
+    width: 100%;
+}
+.btn{
+    color: #565656;
+    border-radius: 2px;
+}
+
+.black_back{
+    background-color: #000000; 
+    height: 100%;
+    color: #ffffff;
+    font-family: "Helvetica Neue";
+    padding: 4% 6%;
+}
+
+p{
+    height: 64px;
+    font-size: 17px;
+    letter-spacing: 0px;
+    font-weight: bold;
+    line-height: 20px;
+}
+
+.headline{
+    font-size: 36px;
+    letter-spacing: -4px;
+    line-height: 2px;
+    font-family: "Dosis";
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 2%;
+    span{
+        text-transform: lowercase;
+    }
+}
+
+.title-text-foto{
+    margin: 0 22%;
+}
+
+.title-text-foto img:nth-child(2){
+    margin-top: -38px;
+    margin-bottom: 25px;
+}
+
+.title-text-foto img:nth-child(4){
+    margin-top: 24px;
+    margin-bottom: 18%;
+}
+
+.margin-bottom{
+    margin-bottom: 3.5%;
+    height: auto;
+}
+
+.form-control::placeholder{
+    color: #565656;
+}
+
+.form-control{
+    border-radius: 2px;
+}
+
+.form-row > .col, .form-row > [class*="col-"] {
+    padding-right: 13px;
+    padding-left: 9px;
+    margin-bottom: 3%;
+}
+
+.dropdown button{
+    width: 100%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.dropdown-menu.show {
+    width: 100%;
+}
+
+#send_foto{
+    margin-top: 8%;
+    margin-bottom: 5%;
+    div{
+        padding: 0;
+    }
+    div:nth-child(1){
+        flex: 0 0 29.333%;
+        -ms-flex: 0 0 29.333%;
+        margin-right: 2%;
+    }
+     p{
+        height: auto;
+         font-size: 21px;
+         margin-bottom: 0;
+    }
+}
+
+.text-muted, a{
+    color: inherit !important;
+}
+
+a{
+    text-decoration: underline;
+}
+
+.form-text{
+    margin-top: 0;
+}
+
+.check_form{
+    margin-top: 1%;
+    margin-bottom: 3%;
+    input[type="checkbox"]{
+        transform: scale(2);
+        margin-top: 2.48%;
+        margin-left: -3%;
+    }
+    label{
+        font-size: 25px;
+        margin-left: 4%;
+    }
+    .form-text{
+        padding-left: 18px;
+        font-size: 15px;
+        margin-top: -5px;
+    }
+}
+
+.check_change{
+    input[type="checkbox"]{
+      margin-left: -2%;  
+    }
+    label{
+        margin-left: 2.6%;
+        margin-top: 1.2%;
+    }
+    p{
+        padding-left: 19px;        
+        font-size: 15px;
+        margin-top: -5px;
+        margin-bottom: 0;
+        font-weight: 100;
+        height: auto;
+        line-height: 19px;
+    }
+    .form-text{
+        font-size: small;
+        margin-top: .1%;
+        font-style: oblique;
+    }
+}
+
+.math{
+    margin-top: 4.5%;
+    .col-lg-10{
+        flex: 0 0 67.333%;
+        -ms-flex: 0 0 67.333%;
+    }
+    div:nth-child(1){
+        font-size: 22px;
+        font-weight: 600;
+        padding-left: 0;
+        padding-right: 0;
+    }
+    div:nth-child(2){
+        max-width: 8.667%;
+        padding: 0;
+        input{
+            margin-left: -20%;
+        }
+    }
+}
+
+.submit{
+    margin-top: 6.7%;
+    div:first-child{
+        margin-bottom: 6.5%;
+    }
+    div:last-child{
+        padding: 0;
+        line-height: 16px;
+        .form-text{
+            text-align: center;
+            font-size: 15px;
+        }
+    }
+    .btn{
+        background-color: #d67c1c;
+        width: 89%;
+        color: inherit;
+        border: 1px solid white;
+        margin-left: 4%;
+        font-size: 21px;
+    }
+}
+.btn-file { 
+    position: relative; 
+    overflow: hidden; 
+    margin-right: 4px; 
+    background-color: white;
+    width: 100%;
+}
+
+.btn-file input { 
+    position: absolute; 
+    top: 0; 
+    right: 0; 
+    margin: 0; 
+    opacity: 0; 
+    filter: alpha(opacity=0);
+    transform: translate(-300px, 0) scale(4); 
+    font-size: 23px; 
+    direction: ltr;
+    cursor: pointer; 
+}
+/* Fix for IE 7: */
+* + html .btn-file { 
+    padding: 2px 15px; 
+    margin: 1px 0 0 0; 
+}
+
+@media screen and (max-width: 1820px){
+    .title-text-foto{
+        margin: 0 10%;
+        img:nth-child(3){
+            display: block;
+            height: 250px;
+        }
+        img:nth-child(4){
+            margin-bottom: 4%;
+        }
+    }
+    .dropdown button{
+        margin-left: 0;
+    }
+    .padding-0{
+        margin-bottom: 4%;
+    }
+    #send_foto{
+        margin: 0;
+    }
+    .check_form{
+        margin-bottom: 0;
+    }
+    .math {
+        margin-top: 1.5%;
+        .col-lg-10 {
+            flex: 0 0 73.333%;
+        -ms-flex: 0 0 73.333%;
+        }
+    }
+    .submit {
+        margin-top: 2.7%;
+    }
+}
+
+.distance{
+    margin-left: -7%;
+}
+
+@media screen and (max-width: 1720px){
+    .black_back{
+        padding: 2.5% 3%;
+    }
+}
+
+@media screen and (max-width: 1620px){
+    .check_change p{
+        font-size: 13px;
+    }
+    .check_form .form-text{
+        font-size: 13px;
+    }
+    .padding-0 {
+        margin-bottom: 2.5%;
+    }
+    .submit div:first-child {
+        margin-bottom: 1%;
+    }
+    .submit div:last-child{
+        flex: 0 0 79.333%;
+        -ms-flex: 0 0 79.333%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 1620px){
+    .center_block{
+        margin: 5% 0;
+    }
+    .black_back{
+        flex: 0 0 62%;
+        -ms-flex: 0 0 62%;
+        max-width: 100%;
+        height: auto;
+    }
+    .title-text-foto {
+        margin: 0 15%;
+    }
+}
+
+@media screen and (max-width: 1330px){
+    .title-text-foto img:nth-child(3) {
+        display: block;
+        height: 175px;
+    }
+    .title-text-foto img:nth-child(2){
+        height: 62px;
+    }
+}
+
+@media screen and (max-width: 1230px){
+    .headline{
+        height: auto;
+    }
+    .title-text-foto img:nth-child(2) {
+        margin-top: 2%;
+    }
+    .title-text-foto img:nth-child(4) {
+        height: 15px;
+    }
+    .margin-bottom{
+        font-size: 15px;
+    }
+    check_form label {
+        font-size: 22px;
+    }
+    .padding-0 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1100px){
+    .fixed{
+        position: fixed;
+        height: 120vh;
+    }
+    .center_block {
+        margin: 0;
+    }
+    .check_change input[type="checkbox"] {
+        margin-left: -2.3%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .col-lg-4{
+        max-width: 50%;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+    }
+    .math{
+        .col-lg-10{
+            flex: 0 0 100%;
+            -ms-flex: 0 0 100%;
+        }
+        div:nth-child(1) {
+            font-size: 21px;
+        }
+    }
+    
+    .title-text-foto img:nth-child(2) {
+        height: 42px;
+    }
+    .title-text-foto img:nth-child(3) {
+        height: 125px;
+    }
+    .title-text-foto img:nth-child(4) {
+        margin-top: 10px;
+    }
+    .submit .col-lg-7{
+        -ms-flex: 0 0 76.333%;
+        flex: 0 0 76.333%;
+        max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .math {
+        div:nth-child(2) {
+            max-width: 20.667%;
+        }
+        .col-lg-10 {
+            flex: 0 0 90%;
+            -ms-flex: 0 0 90%;
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .math div:nth-child(1) {
+        font-size: 19px;
+    }
+    .form-control, button, .btn-file{
+        height: 27px;
+    }
+    .btn{
+        padding: 0 .75rem;
+    }
+    .submit{
+        .col-lg-7 {
+            -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+        }
+        .btn{
+            height: 36px;
+        }
+    }
+}
+
+@media screen and (max-width: 700px){
+    #send_foto {
+        margin-top: 4%;
+    }
+    .check_form input[type="checkbox"] {
+        transform: scale(1.3);
+        margin-top: 3.48%;
+    }
+    .travel{
+        padding: 0;
+        padding-right: 7px;
+    }
+    .distance{
+       padding-right: 3px; 
+    }
+    .submit .btn{
+        margin-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .title-text-foto {
+        margin: 0 7%;
+    }
+    .margin-bottom{
+        text-align: justify;
+        padding: 0 5px;
+    }
+    .btn-file{
+        height: 100%;
+        padding-top: 30%;
+        padding-left: 2px;
+        font-size: 15px;
+    }
+    .submit .btn{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .black_back{
+        flex: 0 0 76%;
+        -ms-flex: 0 0 72%;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .col-6{
+        max-width: 100%;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+    }
+    .headline{
+        font-size: 30px;
+    }
+    .submit{
+        div:first-child{
+            padding: 0;
+        }
+        .btn{
+            font-size: 17px;
+        }
+    }
+    .btn-file{
+        padding-top: 39%;
+    }
+    .distance{
+        margin-left: -9%;
+        margin-right: -3px;
+    }
+}

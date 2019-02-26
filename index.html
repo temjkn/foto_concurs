@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen" />
+<link rel="stylesheet/less" type="text/css" href="style.less">
+<script src="less.min.js" type="text/javascript"></script>
+	<title> Title </title>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row justify-content-center align-items-center fixed">
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/bridge.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/seamark.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/rock.png">
+            </div>
+            
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/waterfall.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/houses.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/bridge2.png">
+            </div>
+            
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/handsUp.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/bridge3.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/flamingo.png">
+            </div>
+            
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/houses2.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/ships.png">
+            </div>
+            <div class="col-6 col-md-6 col-lg-4">
+                <img src="image/mankey.png">
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center center_block">
+            <div class=" col-10 col-md-8 col-lg-6 black_back">
+                <div class="title-text-foto">
+                    <p class="headline">#Gvq<span>mon</span>voyage</p>
+                    <img src="image/foto.png">
+                    <img src="image/concurse.png">
+                    <img src="image/mon-voyage.png">
+                </div>
+                <p class="margin-bottom">Remplissez le formulaire ci-dessous et joignez votre meilleure photo prise lors de votre voyage avec GVQ et courez la chance de gagner un crédit-voyage de 500$* sur votre prochain voyage, un Guides Voir de votre choix, et la chance de voir votre photo dans notre brochure édition Été-Automne 2018.</p>
+                <form>
+                    <div class="form-row">
+                        <div class="col-12 col-md-6"><input type="email" class="form-control" id="Email" aria-describedby="emailHelp" placeholder="Nom*"></div>
+                        <div class="col-12 col-md-6"><input type="Prénom" class="form-control" id="Prénom" aria-describedby="PrénomlHelp" placeholder="Prénom*"></div>
+                        <div class="col-12 col-md-6"><input type="Téléphone" class="form-control" id="Téléphone" aria-describedby="TéléphonelHelp" placeholder="Téléphone*"></div>
+                        <div class="col-12 col-md-6"><input type="Courriel" class="form-control" id="Courriel" aria-describedby="CourriellHelp" placeholder="Courriel*"></div>
+                        <div class="col-12 col-md-6"><input type="Code" class="form-control" id="Code" aria-describedby="HelpCode" placeholder="Code postal*"></div>
+                    </div>
+                
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-8 padding-0">Avez-vous déjà voyagé avec Groupe Voyages Québec?</div>
+                    <div class=" col-12 col-md-4 travel">
+                        <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Non
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">one</a>
+                            <a class="dropdown-item" href="#">two</a>
+                            <a class="dropdown-item" href="#">three</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" style="margin-top: -.5%;">
+                    <div class="col-12 col-md-4 padding-0">Quel était votre destination?</div>
+                    <div class="col-12 col-md-5" style="margin-left: 3%">
+                        <div class="dropdown distance" style="">
+                            <button class="btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Faites votre choix
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <a class="dropdown-item" href="#">three</a>
+                            <a class="dropdown-item" href="#">two</a>
+                            <a class="dropdown-item" href="#">one</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row" id="send_foto">
+                    <div class="col-4">
+                        <span class="btn btn-file">
+                            <i class="icon-plus"></i> <span>Joindre un fichier</span>
+                            <input type="file" name="image" id="image" />
+                        </span>
+                    </div>
+                    <div class="col-7"><p>Téléchargez votre photo</p>
+                    <small class="form-text text-muted">Résolution minimum de 300 DPI, poids minimum: 1Mo, poids maximum: 6 Mo.</small></div>
+                </div>
+                <div class="row check_form">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="Accept">
+                        <label class="form-check-label" for="Accept">
+                        Acceptation
+                        </label>
+                        <small class="form-text text-muted">
+                          J'ai lu, j'ai compris et j'accepte le règlement de participation. <a href="#">Lire les réglements</a>
+                        </small>
+                    </div>
+                </div>
+                <div class="row check_form check_change">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="publicity">
+                        <label class="form-check-label" for="publicity">
+                        Inspirez-moi !
+                        </label>
+                        <p>Je désire recevoir gratuitement des communications courriel incluant des offres promotionnelles et de l’information relative aux produits de voyages de Groupe Voyages Québec et de ses partenaires affiliés.</p>
+                        <small class="form-text text-muted">Il est possible de retirer son consentement à tout moment.</small>
+                    </div>
+                </div>
+                <div class="row justify-content-center math">
+                    <div class="col-lg-10">Question mathématique : (100x4) + (100x2) - 50 =</div>
+                    <div class="col-lg-2"><input type="math" class="form-control" id="math" aria-describedby="mathHelp" placeholder=""></div>
+                </div>
+                <div class="row justify-content-center submit">
+                    <div class="col-lg-7"><button type="submit" class="btn">PARTICIPER AU CONCOURS</button></div>
+                    <div class="col-7">
+                    <small class="form-text text-muted">*Sur l’ensemble des produits offerts par GVQ.<br>
+                        Détails et règlements disponibles en succursale ou au gvq.ca/concours.
+                    </small>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="jquery.js"></script>
+    <script src="popper.min.js" type="text/javascript"></script>
+    <script src="bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+</body>
+</html>
